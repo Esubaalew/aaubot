@@ -19,7 +19,6 @@ from portal import (login_to_portal, get_profile, get_grades)
 import os
 from flask import render_template
 from flask import Flask
-from replit import db
 from math import ceil
 
 from telegram.ext.updater import Updater
@@ -80,7 +79,7 @@ aait = 'AAIT'
 aau = 'AAU'
 eiabc = 'EIABC'
 
-KEY = os.getenv('SECRET_KEY').encode()
+KEY = "QY2KghjpRGHQjr85VGpH7mcOMBxUpoaNuik7lTdz06M=".encode()
 
 LOGED_BUTTONS: list = [
   [KeyboardButton("Grade Report")],
@@ -812,7 +811,7 @@ def main() -> None:
 
     """
   create_table()
-  TOKEN: str = os.getenv('TOKEN')
+  TOKEN: str ="5649163839:AAFcxkAuHPwYR7KB_1GUyniUGmTUiiiLIwY"
   updater = Updater(TOKEN, use_context=True)
   dp = updater.dispatcher
   conv_handler = ConversationHandler(
