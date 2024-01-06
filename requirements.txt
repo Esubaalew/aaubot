@@ -27,7 +27,7 @@ python-telegram-bot==13.15
 pytz==2023.3.post1
 requests==2.31.0
 six==1.16.0
-soupsieve==2.5
+soupsieve==2.4.1
 stack-data==0.6.3
 tornado==6.1
 traitlets==5.13.0
