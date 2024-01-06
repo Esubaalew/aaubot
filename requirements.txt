@@ -30,7 +30,7 @@ six==1.16.0
 soupsieve==2.4.1
 stack-data==0.6.3
 tornado==6.1
-traitlets==5.13.0
+traitlets==5.9.0
 tzdata==2023.3
 tzlocal==5.2
 urllib3==2.0.7
